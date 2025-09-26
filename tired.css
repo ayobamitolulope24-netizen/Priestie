@@ -1,0 +1,40 @@
+.About{
+    color: green;
+}
+.priest{
+    color: green;
+}
+.light{
+    color: green;
+}
+.known{
+    color: green;
+}
+.baby{
+    color: coral;
+}
+nav{ 
+    display: flex;
+    gap: 30px;
+    background-color: blueviolet;
+    margin-left: 30px;
+}
+.link { 
+    padding-top: 30px;
+    gap: 50px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    }
+    button{
+        height: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+        background-color: blueviolet;
+        
+    }
+    button:hover {
+        background-color: red;
+        cursor: pointer;
+    }
