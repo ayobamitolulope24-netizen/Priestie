@@ -1,0 +1,109 @@
+ body {
+      background-color: green;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .tie{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    input, select {
+      margin: 10px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 200px;
+    }
+
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #005f8a;
+    }
+
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 20px;
+    }
+
+    .job-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .job-card:hover {
+      transform: scale(1.03);
+    }
+
+    .job-card h3 {
+      margin: 0 0 10px 0;
+      color: #0077b6;
+    }
+
+    .job-card p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .career-advice {
+      background: #fff;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .career-advice h2 {
+      color: #0077b6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0077b6;
+      color: white;
+      margin-top: 30px;
+    }
+    #button2{
+      background-color: #0077b6;
+      display: flex;
+      margin-left: 40px;
+    }
+    
+
+     /* background: #f4f6f9; */
+
+    .dark-mode{
+      background-color: #06131a;
+      transition: 1s;
+    }
